@@ -83,29 +83,35 @@ export default {
   }
   /*文章内容*/
   .article-context{
+    margin: 20px 0 50px 0;
+    background-color: #ecf0f3;
     width: 1000px;
-    height: 500px;
     text-align: left;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 10px 10px 15px #dedede,-10px -10px 15px #ffffff;
   }
 
   .declaration{
     width: 960px;
     text-align: left;
-    background-color: #414040;
-    color: #bdbfbd;
+    background-color: #ecf0f3;
+    color: #457e4a;
     border-left: 7px #05b076 solid;
     padding: 15px 20px;
+    /*box-sizing: border-box;*/
+    box-shadow: 10px 10px 15px #dbdbdb,-10px -10px 15px #FFFFFF;
   }
   a{
-    color: #bdbfbd;
+    color: #38d995;
   }
   a:hover{
-    color: #05b076;
-    transition: 0.7s;
+    color: #30ea3a;
+    transition: .3s;
   }
   .tools{
     width: 1000px;
-    background-color: #2b2a2a;
+    background-color: #ecf0f3;
   }
   .tools-pre{
     float: left;

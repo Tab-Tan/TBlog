@@ -12,7 +12,7 @@
           <a href="javascript:;" v-text="comment.user.nikeName"></a>
           <!--回复按钮 和 时间-->
           <div class="comment-tools">
-            <a href="javascript:;" class="btn-simple">回复</a>
+            <a href="javascript:;" class="btn-hf">回复</a>
             <span v-text="comment.date"></span>
           </div>
           <!--评论内容-->
@@ -59,14 +59,23 @@ export default {
     border-bottom: 1px #757373 solid;
   }
   .comments-panel{
+
     padding: 10px;
-    background-color: #414040;
+    background-color: #ecf0f3;
     margin-bottom: 40px;
     /*border:1px #0d4a36 solid;*/
+    box-sizing: border-box;
+    box-shadow: 8px 8px 15px #c6c4c4,-8px -8px 15px #FFFFFF;
   }
   .comment textarea{
+    margin-top: 30px;
     width: 940px;
-    border: 4px #05b076 solid;
+    /*border: 4px #05b076 solid;*/
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ecf0f3;
+    box-shadow: inset 10px 10px 15px #dbdbdb,inset -10px -10px 15px #FFFFFF;
     resize: none;
   }
   img{
@@ -81,7 +90,6 @@ export default {
     margin: 4px;
   }
   .comment-content{
-
     margin: 10px 4px;
   }
   p:hover{
@@ -106,5 +114,17 @@ export default {
     transition: 0.7s;
     cursor: pointer;
   }
-
+  .btn-hf{
+    width: 90px;
+    border: 1px #c6c4c4 solid;
+    margin-top: 10px;
+    text-align: left;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  .btn-hf:hover{
+    /*border-color: #05b076;*/
+    background-color: #bff5dd;
+    transition: .2s;
+  }
 </style>
