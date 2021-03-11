@@ -15,6 +15,6 @@
 
 # 3 界面展示
 1. 首页
-![首页](https://raw.githubusercontent.com/Tab-Tan/CDN/master/pic/%E9%A6%96%E9%A1%B5.png)
+![首页](https://gitee.com/Tab-Tan/CDN/blob/master/pic/%E9%A6%96%E9%A1%B5.png)
 2. 聊天室
 ![聊天室](https://raw.githubusercontent.com/Tab-Tan/CDN/master/pic/%E8%81%8A%E5%A4%A9%E5%AE%A4.png)
