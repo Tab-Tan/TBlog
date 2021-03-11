@@ -24,3 +24,5 @@
 ![首页](https://cdn.jsdelivr.net/gh/Tab-tan/CDN@1.1.20/pic/首页.png)
 2. 聊天室
 ![聊天室](https://cdn.jsdelivr.net/gh/Tab-tan/CDN@1.1.20/pic/聊天室.png)
+3. 文章页面
+![文章页面](https://cdn.jsdelivr.net/gh/Tab-tan/CDN@1.1.21/pic/文章页面.png)
