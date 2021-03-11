@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+</head>
+<body>
+    demo
+</body>
+</html>
+<script>
+    i = 0
+    url = "ws://www.tabtan.cn:8081/websocket/" + (i++);
+    // var ws = new WebSocket("ws://localhost:8081/websocket");
+    var ws = new WebSocket(url);
+
+    ws.onmessage = function (res){
+        // 服务器中onmession的回调
+        console.log(res.data)
+    }
+
+</script>
