@@ -26,3 +26,5 @@
 ![聊天室](https://cdn.jsdelivr.net/gh/Tab-tan/CDN@1.1.20/pic/聊天室.png)
 3. 文章页面
 ![文章页面](https://cdn.jsdelivr.net/gh/Tab-tan/CDN@1.1.21/pic/文章.png)
+4. 换肤和公告组件
+![文章页面](https://cdn.jsdelivr.net/gh/Tab-tan/CDN@1.1.22/pic/展示换肤.jpg)
